@@ -4,11 +4,14 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <div>
-    <header class="showcase">
+        <React.Fragment>
+
+    <body>
+    <section>
+        <div class="showcase">
         <div class="container">
             <div class="text-content">
-                <p class="sports-category">sports</p>
+                <p class="sports-category">Politics</p>
                 <h1>Zacob Zuma arrested again</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
@@ -19,14 +22,14 @@ export default function Home() {
                 <a href="./html/article.html">Read More</a>
             </div>
         </div>
+        </div>
     </header>
-    <body>
-    <section>
+        </div>
         <div class="container">
             <h1 class="editor-h1">Editor Picks</h1>
             <div class="articles">
                 <a href="./html/article.html" class="card">
-                    <img src="./assets/images/articles/ent1.jpg" alt="" />
+                    <img src="./assets/images/articles/zuma.jpg" alt="" />
                     <article>
                         <p class="entertainment-category">Entertainment</p>
                         <h1>Zulu king denies drunk marriage proposal</h1>
@@ -110,13 +113,14 @@ export default function Home() {
                     <img src="./assets/images/articles/zuma.jpg" alt="" />
                 </a>
             </div>
+            
         </div>
     </section>
     </body>
    
 
     <script src="./js/script.js"></script>
-    </div>
+    </React.Fragment>
   )
 }
  

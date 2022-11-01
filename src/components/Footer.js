@@ -8,19 +8,17 @@ export default function Footer() {
             <div class="footer">
                 <article>
                     <div class="logo">
-                        <i class="fas fa-globe fa-2x"></i>
-                        <h2>News<span>Grid</span></h2>
+                        <i class="fas fa-newspaper fa-2x"></i>
+                        <h2>DAILY SOUTH AFRICAN</h2>
                     </div>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-                        deserunt assumenda enim non? Ratione ipsum voluptates fuga eos
-                        earum vitae.
+                        Cutting edge journalism from the front lines.
                     </p>
                 </article>
 
                 <article>
                     <h4>EMAIL NEWSLETTER</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p>Join our newletter for latest updates</p>
                     <input type="email" placeholder="Enter Email..." />
                     <a href="#"> Subscribe</a>
                 </article>
@@ -36,8 +34,7 @@ export default function Footer() {
                 <article>
                     <h4>JOIN OUR CLUB</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati, maiores!
+                        Insiders have access to more content. 
                     </p>
                     <a href="#">Join Now</a>
                 </article>
