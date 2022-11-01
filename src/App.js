@@ -3,12 +3,13 @@ import './App.css'
 import Home from './pages/Home'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import RouterPage from './Routing/Routes';
+import Routes from './Routing/Routes';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Routes />
+       <Nav />
       <Home />
       <Footer />
     </div>

@@ -23,8 +23,6 @@ export default function Home() {
             </div>
         </div>
         </div>
-    </header>
-        </div>
         <div class="container">
             <h1 class="editor-h1">Editor Picks</h1>
             <div class="articles">

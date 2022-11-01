@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"); */
 
 :root {
-  --headings-font: "Handlee", cursive;
+  --headings-font: "Roboto", sans-serif;
   --primary-color: rgb(120, 102, 32);
   --light-grey-color: rgb(243, 243, 243);
   --dark-color: rgb(46, 46, 46);
@@ -119,6 +119,7 @@ nav .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -155,12 +156,12 @@ nav .container {
 
 .options a {
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 20px 15px;
   font-size: 1.05rem;
   font-weight: 400;
   color: black;
   letter-spacing: 1px;
-  float: left;
+  float: middle;
 }
 
 .options a:hover {
